@@ -1,0 +1,11 @@
+label{
+  color: $font-color-blue;
+}
+
+input{
+  color: $font-color-blue;
+}
+
+.about{
+  @include important-bg;
+}

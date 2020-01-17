@@ -1,0 +1,10 @@
+$font-color-blue:var(--font-color-blue);
+
+:root {
+  --font-color-blue: orange;
+}
+
+
+@mixin important-bg{
+  background:red;
+}

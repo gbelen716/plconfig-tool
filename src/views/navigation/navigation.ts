@@ -20,9 +20,6 @@ export default class Navigation extends Vue{
   }
 
   mounted():void{
-  let root = document.documentElement;
-  root.style.setProperty('--font-color-blue','blue');
-    console.log(process.env.VUE_APP_SITE_CONFIGURATION_URL);
   }
 
   getStyleSheet():void{

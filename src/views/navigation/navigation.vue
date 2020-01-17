@@ -4,7 +4,7 @@
 <template>
   <div class="about">
     <div class="divbg" v-for="(attr,index) in this.attributes" :key="index">
-      <label>{{attr.title}}</label><input type="text" :value="attr.value"/><span ></span>
+      <label>{{attr.title}}</label><input type="text" :value="attr.value"/>
     </div>
     <input type="submit" @click="getStyleSheet()" value="click here"/>
   </div>

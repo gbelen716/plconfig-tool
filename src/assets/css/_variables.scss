@@ -1,0 +1,11 @@
+$font-color-blue:var(--font-color-blue);
+$primary-text-color:var(--primary-text-color);
+
+@mixin important-bg{
+  background:lightblue;
+}
+
+
+div .header{
+  color: $primary-text-color;
+}

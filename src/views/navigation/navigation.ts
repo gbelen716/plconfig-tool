@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Component from "vue-class-component";
+import styleSheetsService from '@/services/stylesheet-service.ts';
 
 @Component
 export default class Navigation extends Vue{
@@ -23,7 +24,7 @@ export default class Navigation extends Vue{
   }
 
   getStyleSheet():void{
-
+      styleSheetsService.updateRootCssVariable();
   }
 
 }

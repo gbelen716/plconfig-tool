@@ -5,6 +5,6 @@ import styleSheetsService from '@/services/stylesheet-service.ts';
 @Mixin
 export default class CSSStyleInjectionMixin extends Vue {
   mounted(): void {
-    styleSheetsService.updateRootCssVariable();
+    /*styleSheetsService.updateRootCssVariable();*/
   }
 }

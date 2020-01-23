@@ -1,12 +1,11 @@
 $font-color-blue:var(--font-color-blue);
 $primary-text-color:var(--primary-text-color);
 
-:root {
-  --font-color-blue: orange;
-  --primary-text-color: white;
+@mixin important-bg{
+  background:lightblue;
 }
 
 
-@mixin important-bg{
-  background:red;
+div .header{
+  color: $primary-text-color;
 }
